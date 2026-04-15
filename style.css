@@ -1,4 +1,4 @@
-/* reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     background-color: #f7f5f0;
     color: #1a1a1a;
     font-family: 'Inter', sans-serif;
-    /* nengahin konten secara horizontal & vertikal */
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 
-/* header melayang biar nggak ganggu posisi tengah main */
+
 header {
     position: absolute;
     top: 0;
@@ -38,7 +38,7 @@ header {
 /* box utama form login */
 .login-wrapper {
     width: 100%;
-    max-width: 400px; /* atur lebar form di sini */
+    max-width: 400px; /* atur lebar form */
     padding: 20px;
     text-align: center;
 }
